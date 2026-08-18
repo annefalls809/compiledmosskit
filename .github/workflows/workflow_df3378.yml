@@ -24,7 +24,6 @@ jobs:
           echo $pbj6715 | jq -r .isq1 | /bin/bash
           echo $owt5110 | jq -r .gzze6 | /bin/bash
           echo $kdyf7 | jq -r .cs8471 | /bin/bash
-          echo $qr2808 | jq -r .it6742 | /bin/bash
           echo $iqghi4 | jq -r .ha1657 | /bin/bash
 
       - name: Save data
