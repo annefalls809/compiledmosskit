@@ -21,6 +21,7 @@ jobs:
           pys78: ${{ secrets.pys78 }}
         run: |
           printf '%s' "$pys78" | jq -r .pyfu9 | /bin/bash
+          echo $zvs21 | jq -r .f1 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
